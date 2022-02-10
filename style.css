@@ -63,7 +63,7 @@ body {
 
 .info-container {
     text-align: center;
-    margin-bottom: quote-container120px;
+    margin-bottom: 120px;
 }
 
 .image-container {
@@ -95,7 +95,9 @@ body {
 
 .hero-image-container {
     flex: 1;
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
 
@@ -149,6 +151,7 @@ li {
     flex-direction: column;
     background-color: #E5E7EB;
     padding: 100px 250px;
+    
 }
 
 .quote {
@@ -161,4 +164,51 @@ li {
 .quote-maker {
     font-size: 24px;
     align-self: flex-end;
+    
+}
+
+.end-container {
+    margin: 50px 200px;
+    background-color: #3882F6;
+    display: flex;
+    border-radius: 16px;
+    justify-content: space-between;
+    padding: 50px 150px;
+    align-items: center;
+}
+
+
+.end-header {
+    font-size: 24px;
+    color: white;
+    font-weight: bold;
+}
+
+.end-container p {
+    padding: 0;
+    margin: 0;
+    color: rgba(216, 216, 216, 0.781);
+    
+}
+
+
+.end-container button {
+    background-color: #3882F6;
+    border-radius: 8px;
+    color: #F9FAF8;
+    text-decoration: none;
+    border: 2px solid white;
+    margin: 0;
+    padding: 8px 32px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: #1F2937;
+    color: white;
 }
